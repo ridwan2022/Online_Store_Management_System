@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="542.0" prefWidth="635.0" styleClass="anchor-pane" stylesheets="@application.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.allProducts">
+   <children>
+      <Text fill="WHITE" layoutX="231.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="All Products">
+         <font>
+            <Font size="30.0" />
+         </font></Text>
+      <Button fx:id="food" layoutX="240.0" layoutY="123.0" mnemonicParsing="false" onAction="#openFoodItems" prefHeight="39.0" prefWidth="140.0" styleClass="rounded-button" text="Food" />
+      <Button fx:id="Clothes" layoutX="240.0" layoutY="189.0" mnemonicParsing="false" onAction="#openClothingItems" prefHeight="39.0" prefWidth="140.0" styleClass="rounded-button" text="Clothes" />
+      <Button fx:id="back" layoutX="51.0" layoutY="454.0" mnemonicParsing="false" onAction="#back_to_admin_dashboard" prefHeight="39.0" prefWidth="165.0" styleClass="rounded-button" text=" Back to admin" />
+		<Button fx:id="backToCustomer" layoutX="237.0" layoutY="454.0" mnemonicParsing="false" onAction="#back_to_customer" prefHeight="39.0" prefWidth="175.0" styleClass="rounded-button" text="Back to customer" />
+   </children>
+</AnchorPane>

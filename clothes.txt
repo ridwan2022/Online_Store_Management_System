@@ -1,0 +1,1 @@
+101,lungi,100.0,10.0,amanot,big,extra big,yes
